@@ -5,7 +5,7 @@ let x = 0;
 let y = 0;
 const animationDuration = 4000;
 const movementDuration = 4000;
-const resetDuration = 5020;
+const resetDuration = 4020;
 
 button.addEventListener('click', begin);
 
