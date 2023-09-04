@@ -4,7 +4,7 @@ const animation = document.getElementById('zenitsuAnimation');
 let x = 0;
 let y = 0;
 const animationDuration = 4000;
-const movementDuration = 5000;
+const movementDuration = 4000;
 const resetDuration = 5020;
 
 button.addEventListener('click', begin);
@@ -21,8 +21,8 @@ function begin(){
         const progress = timesTamp - startTime;
 
         if(progress < movementDuration){
-            x = (progress / movementDuration) * 300;
-            y = (progress / movementDuration) * 300;
+            x = (progress / movementDuration) * 50;
+            y = (progress / movementDuration) * 50;
             animation.style.left = x + 'px';
             animation.style.top = y + 'px';
             requestAnimationFrame(step);
