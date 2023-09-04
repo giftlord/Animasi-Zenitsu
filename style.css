@@ -1,0 +1,39 @@
+body{
+    width: 2rem;
+    background-color: black;
+}
+
+#button{
+    background: yellow;
+    color: black;
+    margin-left: 380px;
+    margin-top: 100px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+    text-shadow: 2px 2px 0px  #000000, -2px -2px 0px  #000000, 2px -2px 0px  #000000, -2px 2px 0px  #fff;
+}
+
+#zenitsuAnimation{
+    margin-left: 450px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+@media(max-width: 576px){
+    #button{
+        margin-left: 20px;
+    }
+    #zenitsuAnimation{
+        margin-left: 85px;
+    }
+}
